@@ -8,3 +8,7 @@ This software was designed to encode DAYCLI message in FM94-BUFR using the templ
 Compilation Instructions
 ==========
 See https://github.com/sergioh-pessoal/daycli_encoder/wiki/Building
+
+Preparing Input Text File
+=========================
+See https://github.com/sergioh-pessoal/daycli_encoder/wiki/Imput_text_file
