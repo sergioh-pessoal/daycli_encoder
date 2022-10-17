@@ -3,7 +3,7 @@ export MBUFR_TABLES=../bufrtables
 #--------------------------------------------
 # Encode daycli message im BUFR from text file
 #----------------------------------------------
-../bin/daycli_encoder -i DAYCLI_82191.txt -o DAYCLI_82191.bufr -s 001 -h "ISXX01 SBBR 202000"
+../bin/daycli_encoder -i DAYCLI_82191.txt -o DAYCLI_82191.bufr 
 
 #-------------------------------------------------------------
 # Decode DAYCLI message from BUFR to text file (using bufrdump)
