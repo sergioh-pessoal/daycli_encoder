@@ -1,14 +1,17 @@
 Daycli_encoder
 ==========
 
-The DAYCLI_ENCODER is a software written  in FORTRAN 90  to assist in the generation of the new DAYCLI message.
-This software was designed to encode DAYCLI message in FM94-BUFR using the template 3-07-075 from a specific text format.
+The DAYCLI_ENCODER is a FORTRAN 90 software to encode the BUFR template  **3-07-075** - Supplemental daily temperature and precipitation values for monthly climate report (DAYCLI ).
+This software is designed to encode the DAYCLI message from a specific text file described in 3. More information about the DAYCLI template can be found in 1. Instructions for compiling the software and using the example are in 2
 
+1 - The template 3-07-075 (DAYCLI)
+---------
+See https://github.com/sergioh-pessoal/daycli_encoder/wiki/Daycli
 
-Compilation Instructions
-==========
+2 - Compilation Instructions
+---------
 See https://github.com/sergioh-pessoal/daycli_encoder/wiki/Building
 
-Preparing Input Text File
-=========================
+3 - Preparing Input Text File
+---------
 See https://github.com/sergioh-pessoal/daycli_encoder/wiki/Imput_text_file
